@@ -1,6 +1,6 @@
 
 // setTimeout -> executa uma vez
-// setInterval -> executta infinitas vezes
+// setInterval -> executa infinitas vezes
 //clearInterval -> vai pausar o setInterval
 
 
@@ -54,27 +54,3 @@ function start() {
   function returnData(input) {
     return input > 10 ? input : `0${input}`
   }
-// let h1 = document.querySelector("h1")
-
-// function start() {
-
-//     cron = setInterval(function () {
-//          number++
-//         h1.innerHTML = number
-//     }, 100)
-// }
-
-
-// let h2 = document.querySelector("h2")
-
-// function start() {
-
-//     hour = setInterval(function () {
-//          number++
-//         h2.innerHTML = number
-//     }, 60)
-// }
-
-// function stop() {
-// clearInterval(cron)
-// }
